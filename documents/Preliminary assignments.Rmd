@@ -1,0 +1,77 @@
+---
+title: "Preliminary assignments"
+output: pdf_document
+---
+
+Before we start the course please take care of two essential tasks.
+
+
+1. Make R and Rstudio work on your computer
+
+You start by installing the R "engine" from cloud.r-project.org/. Choose the right download for your operating system. If you already have R installed make sure that it is up to date. 
+
+Install the "editor" Rstudio from www.rstudio.com/products/rstudio/download/. Choose the free __Rstudio Desktop__ version. If you already have it installed make sure that it is up to date.
+
+When you choose the language of your R and Rstudio installations please make sure to choose _English_.  You are going to search for a lot of error messages and you are not going to get any 	useful results if the error messages are not in English.
+
+
+
+2. Install the necessary packages
+
+Open Rstudio and paste the following code in the __Console__ and press enter. This will execute the script and install the packages. Don't despair if the code fails and gives you errors. Then we will help you make it work on the first day.
+
+```
+# This script will install most of the packages that we need for this course 
+install.packages("tidyverse")
+install.packages("devtools")
+install.packages("soc.ca")
+install.packages("igraph")
+install.packages("TraMineR")
+install.packages("htmlTable")
+install.packages("ggpubr")
+install.packages("ggrepel")
+install.packages("rvest")
+install.packages("FactoMineR")
+install.packages("wikipediatrend")
+install.packages("pageviews")
+install.packages("rjson")
+install.packages("TraMineRextras")
+install.packages("cluster")
+install.packages("dendextend")
+install.packages("RColorBrewer")
+install.packages("viridis")
+install.packages("WikipediR")
+install.packages("stringi")
+install.packages("stringr")
+
+# Installing from Github
+library(devtools)
+install_github("antongrau/eliter")
+install_url("https://cran.r-project.org/src/contrib/Archive/GMD/GMD_0.3.3.tar.gz")
+```
+
+## Warm up exercises
+If you want to get acquainted with the basics of R, here is a couple of online courses aimed at beginners. 
+Spending a couple of hours on these introductions to R is worth the effort, since you will have a better idea of how to use R when we start the course, and thus use less energy on trying to make R work in class. 
+
+•  __Datacamp__: -  https://www.datacamp.com/courses/free-introduction-to-r  
+
+Datacamp requires you to make an account in order to use their services, but the upside is, it’s a very good learning enviroment.
+    
+•  __Swirl__: -  https://swirlstats.com/students.html  
+  
+Swirl is a package that introduces you to R within R. It is fairly easy. See the introduction for how to get started: Then install and try out the introductory course: ”1: R Programming: The basics of programming in R”
+
+## Good books on R  
+
+__Healy, Kieran. 2018. Data Visualization: A Practical Introduction. Princeton University Press.__  
+You can find an online version of the book here:  
+http://socviz.co/  
+
+
+__Grolemund, Garrett, and Hadley Wickham. R for Data Science. __  
+You can find an online version of the book here:  
+https://r4ds.had.co.nz/.
+
+
+We are looking forward to meeting you!

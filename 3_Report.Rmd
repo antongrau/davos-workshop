@@ -1,0 +1,160 @@
+---
+title: "Brief description of the members of Davos"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("0_functions.R")
+
+davos      <- read_xlsx("data/Davos members 2013-2019.xlsx", sheet = 1)
+davos.org  <- read_xlsx("data/Davos members 2013-2019.xlsx", sheet = 2)
+
+t.name     <- rowSums(table(davos$Org, davos$Name) > 0)
+t.several  <- rowSums(table(davos$Org, davos$Year) > 1)
+t.years    <- rowSums(table(davos$Org, davos$Year) > 0)
+t.present  <- rowSums(table(davos$Org, davos$Year)[, 5:7] > 0)
+```
+
+```{r participants and organizations}
+x      <- count(davos, Year)
+y      <- group_by(davos, Year) %>% count(Org) %>% count(Year)
+
+x$type <- "Participants"
+y$type <- "Organizations"
+colnames(y)[2] <- "n"
+x              <- bind_rows(list(x,y))
+x$Year         <- as.numeric(as.character(x$Year))
+
+p   <- ggplot(x, aes(x = Year, y = n, linetype = type)) + geom_line() + geom_point() + geom_rangeframe(linetype = "solid")
+p   <- p + theme_tufte() + ylim(c(0, NA)) + ggtitle(label = "Participants and organizations each year", subtitle = "Davos: 2013-2019") + xlab("") + ylab("")
+p + labs(caption = "With basic namematching and cleaning")
+```
+
+## Participants and organizations for select countries
+```{r participants from select countries}
+country.set <- c("Denmark", "France", "USA", "Germany", "China", "Russia", "Saudi Arabia", "India", "Brazil")
+
+x <- filter(davos, Country %in% country.set) %>% count(Country, Year)
+
+y <- filter(davos, Country %in% country.set) %>% count(Country, Org, Year) %>% group_by(Country, Year) %>% count()
+
+x$type <- "Participants"
+y$type <- "Organizations"
+colnames(y)[3] <- "n"
+x              <- bind_rows(list(x,y))
+x$Year         <- as.numeric(as.character(x$Year))
+
+p   <- ggplot(x, aes(x = Year, y = n, linetype = type)) + geom_line() + geom_point() + geom_rangeframe(linetype = "solid") + facet_wrap(~Country, scales = "free")
+p   <- p + theme_tufte() + ylim(c(0, NA)) + ggtitle(label = "Participans and organizations", subtitle = "Davos: 2013-2019") + xlab("") + ylab("") 
+p + labs(caption = "With basic namematching and cleaning")
+```
+
+## New members
+Here we see how many new organizations and individuals that participate in Davos. This tells us how many new members we should expect for each additional year and whether we have a file that matches completely wrong. And basically it says that each year has pretty much the same amount of new members and organizations. So - nothing to see here :-)
+
+```{r new members}
+x      <- filter(davos, duplicated(Name) == FALSE) %>% count(Year)
+y      <- filter(davos, duplicated(Org) == FALSE) %>% group_by(Year) %>% count(Org) %>% count(Year)
+
+x$cum  <- cumsum(x$n)
+y$cum  <- cumsum(y$n)
+
+x$type <- "Participants"
+y$type <- "Organizations"
+colnames(y)[2] <- "n"
+x              <- bind_rows(list(x,y))
+x$Year         <- as.numeric(as.character(x$Year))
+
+p   <- ggplot(x, aes(x = Year, y = cum, linetype = type, label = paste("+", n))) + geom_line() + geom_rangeframe(linetype = "solid")
+p   <- p + geom_label_repel(size = 3, family = "serif", force = 0.01)
+p   <- p + theme_tufte() + ylim(c(0, NA)) + ggtitle(label = "Cumulative amount of new participants", subtitle = "Davos: 2013-2019") + xlab("") + ylab("")
+p + labs(caption = "With basic namematching and cleaning")
+```
+
+# Selection criteria
+Here we define the selection criteria. We cannot assume a simple relationship between global prominence and number of participants. The dividing line is whether the organization has a stable and strong engagement with the WEF. At the practical level we would prefer a population of less than 500 organizations.  
+
+### Number of active years.
+The duration of the engagement with the WEF is calculated by the number of years they are present. This measure underestimates the number of active years if we have not cleaned the name of the organization properly. An organization might have merged or changed its name and thereby not be correctly registered.
+
+```{r}
+ld                    <- table(t.years) %>% stack()
+colnames(ld)          <- c("Organizations", "Active Years")
+ld$Share              <- percent(ld$Organizations / sum(ld$Organizations))
+ld                    <- ld[nrow(ld):1,]
+ld$"Cumulative org"   <- cumsum(ld$Organizations)
+ld$"Cumulative share" <- percent(cumsum(ld$Organizations) / sum(ld$Organizations))
+kable(ld[, c(2,1, 3, 4)])
+```
+
+### Number of unique members
+If an organization is only represented by a single person, then it may reflect the idiosyncracies of their current leader and not a lasting engagement. A large entourage indicates that the organization is lobbying or networking broadly, that it is looking for customers etc.  
+Here we are vulnerable to names being spelled differently and we are therefore overestimating the number of unique participants.
+
+
+```{r}
+ld                    <- table(t.name) %>% stack()
+colnames(ld)          <- c("Organizations", "Active members")
+ld$Share              <- percent(ld$Organizations / sum(ld$Organizations))
+ld                    <- ld[nrow(ld):1,]
+ld$"Cumulative org"   <- cumsum(ld$Organizations)
+ld$"Cumulative share" <- percent(cumsum(ld$Organizations) / sum(ld$Organizations))
+kable(ld[, c(2,1, 3, 4)])
+```
+
+### Currently active
+We are going to collect data for 2018-19 so we want our sample to focus on organization that are currently active. But if we require that they were present in 2019 we leave ourselves vulnerable to matching errors or that they for various reasons had to be absent. This could happen if they were in the middle of a merger or that they got a new CEO. We define the current period to be the last three years: 2016-2019.
+
+```{r}
+ld                    <- table(t.present) %>% stack()
+colnames(ld)          <- c("Organizations", "Present years")
+ld$Share              <- percent(ld$Organizations / sum(ld$Organizations))
+ld                    <- ld[nrow(ld):1,]
+ld$"Cumulative org"   <- cumsum(ld$Organizations)
+ld$"Cumulative share" <- percent(cumsum(ld$Organizations) / sum(ld$Organizations))
+kable(ld[, c(2,1, 3, 4)])
+```
+
+### Several members in the same year
+Some organizations only send their CEO, but they do so consistently over a long period. If they change their CEO several times over the period or their CEO is registered with a different name, then their total number of participants might not reflect the intensity of their investment in WEF. This variable measures how many years they did send more than a single individiual.  
+
+```{r}
+ld                    <- table(t.several) %>% stack()
+colnames(ld)          <- c("Organizations", "Present years")
+ld$Share              <- percent(ld$Organizations / sum(ld$Organizations))
+ld                    <- ld[nrow(ld):1,]
+ld$"Cumulative org"   <- cumsum(ld$Organizations)
+ld$"Cumulative share" <- percent(cumsum(ld$Organizations) / sum(ld$Organizations))
+kable(ld[, c(2,1, 3, 4)])
+```
+
+
+# Scenarios
+We combine the four measures in two scenarios: __A: Strong current presence__ and __B: Enduring presence__. In scenario A we want to include organizations that have a strong presence in the recent years. Scenario __A__ requires at least 4 different members, attendance in the last three years and at least 1 year with more than 1 member. Scenario __B__ requires attendance in at least 6 out of 7 years, at least 3 different members and at least three years with more than 2 members.
+
+```{r}
+scenario.a          <-  t.name >= 4 & t.present == 3 & t.several >= 1
+scenario.b          <-  t.years >= 6 & t.name >= 3 & t.several >= 3
+```
+
+```{r}
+table(scenario.a) %>% kable(caption = "Scenario A: Strong current presence")
+table(scenario.b) %>% kable(caption = "Scenario B: Enduring presence")
+table(scenario.b | scenario.a) %>% kable(caption = "Either scenario")
+
+table(A = scenario.a, B = scenario.b) %>% kable(caption = "Scenario A vs. Scenario B")
+```
+
+In total we end up with `r sum(scenario.a | scenario.b)` organizations that satisfy one of the scenarios. The vast majority satisfy both scenarios.
+
+# Data table
+You can see the different organizations and whether they fall for the criteria in the table below.
+
+```{r}
+rownames(davos.org) <- NULL
+datatable(davos.org, class = "nowrap", extensions = 'KeyTable', options = list(keys = TRUE))
+```
+
+
+
