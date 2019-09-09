@@ -10,10 +10,17 @@ source("0_functions.R")
 davos      <- read_xlsx("data/Davos members 2013-2019.xlsx", sheet = 1)
 davos.org  <- read_xlsx("data/Davos members 2013-2019.xlsx", sheet = 2)
 
-t.name     <- rowSums(table(davos$Org, davos$Name) > 0)
-t.several  <- rowSums(table(davos$Org, davos$Year) > 1)
-t.years    <- rowSums(table(davos$Org, davos$Year) > 0)
-t.present  <- rowSums(table(davos$Org, davos$Year)[, 5:7] > 0)
+t          <- table(davos$Org, davos$Name)
+t.name     <- rowSums(t > 0)
+
+t          <- table(davos$Org, davos$Year)
+t.several  <- rowSums(t > 1)
+
+t          <- table(davos$Org, davos$Year) 
+t.years    <- rowSums(t > 0)
+
+t          <- table(davos$Org, davos$Year)[, 5:7]
+t.present  <- rowSums(t > 0)
 ```
 
 ```{r participants and organizations}
@@ -155,6 +162,3 @@ You can see the different organizations and whether they fall for the criteria i
 rownames(davos.org) <- NULL
 datatable(davos.org, class = "nowrap", extensions = 'KeyTable', options = list(keys = TRUE))
 ```
-
-
-

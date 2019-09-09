@@ -50,12 +50,32 @@ L
 
 c(L, fct_recode)
 
-# Subsetting
+# Subsetting vectors
+char
 char[1]
-num[1:2]
-char[log]
+char[2:3]
+log
 which(log)
+char[log]
 
+# Subsetting data.frames - rows
+d
+d[1,]
+d[c(1,3),]
 
+# Subsetting data.frames - columns
+d
+d[, 2]
+d[, -1]
+
+# Subsetting data.frames - names
+d
+d$num
+d[, c("log", "char")]
+
+# Pipes
+1:5 %>% sum()
+
+1:4 %>% cbind(d, .)
 
 
