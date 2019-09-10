@@ -1,0 +1,79 @@
+---
+title: "Day 3 Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source("0_functions.R")
+knitr::opts_chunk$set(echo = TRUE)
+load("data/davos.joined.Rda")
+```
+
+# The relationsship between size and age
+
+```{r cars}
+d <- davos.join %>% select(Organization = Organization,
+                           Employees = Number_of_employees_clean,
+                           Year      = `Fouding year clean`,
+                           Continent = Continent,
+                           Sector    = `Sector (Business, State, Academia, Media, International organisation)`,
+                           Attendees = Positions) 
+d$Year      <- as.numeric(d$Year)
+d$Employees <- as.numeric(d$Employees)  
+
+log_scale <-  list(scale_x_log10(breaks = trans_breaks("log10", function(x) 10^x),
+              labels = trans_format("log10", math_format(10^.x))),
+              scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+              labels = trans_format("log10", math_format(10^.x)))
+)
+
+# Data and geometric shapes
+p <- ggplot(d, aes(x = 2019 - Year, y = Employees, fill = Sector)) + geom_point(shape = 21)
+p <- p + geom_smooth(color = "darkred", fill = "papayawhip", size = 0.5, alpha = 0.5) 
+
+# Themes and scales
+p <- p + theme_tufte() + log_scale
+
+# Titles
+p <- p + ggtitle("The relationship between age and employees", subtitle = paste(sum(complete.cases(d)), "complete cases out of", nrow(d), "cases")) + xlab("Organization age") + ylab("Number of employees")
+p
+```
+
+
+# Age and employees by sector
+```{r}
+p + facet_wrap(~Sector, scales = "free") 
+```
+
+# Zooming in on each sector
+```{r}
+sector.text.plot <- function(s){
+p <- ggplot(d %>% filter(Sector == s), aes(x = 2019 - Year, y = Employees, color = Continent))
+p <- p + geom_text(aes(label = Organization), check_overlap = TRUE, size = 3) 
+
+p <- p + theme_tufte() + log_scale
+p  <- p + scale_color_brewer(type = "qual", palette = "Dark2")
+
+p + ggtitle(s)
+}
+
+lapply(unique(d$Sector), sector.text.plot)
+```
+
+# Relationship between Davos attendees and number of employees
+```{r}
+p <- ggplot(d, aes(x = Employees, y = Attendees, fill = Sector)) + geom_point(shape = 21)
+p <- p + geom_smooth(color = "darkred", fill = "papayawhip", size = 0.5, alpha = 0.5) 
+p <- p + theme_tufte() + log_scale
+p 
+```
+# Orbis data
+
+```{r}
+table(is.na(davos.join$`Nom de l'entreprise`)) %>% kable(title = "Number of missing in Orbis")
+
+table(davos.join$`Code ISO Pays` == davos.join$`Most typical country code in WEF`) %>% kable(title = "Agreement between Antons davos Country code and Orbis")
+
+davos.join %>% filter(`Code ISO Pays` != `Most typical country code in WEF`) %>% select(Organization, `Most typical country code in WEF`, `Code ISO Pays`) %>% head(30) %>% kable()
+```
+
