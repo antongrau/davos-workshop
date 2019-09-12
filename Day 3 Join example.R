@@ -6,9 +6,7 @@ davos.monday     <- read_xlsx(path = "data/Davos members 2013-2019.xlsx", sheet 
 
 orbis_1 <- read_excel(path = "data/Orbis 1.xls", sheet = 2)
 orbis_2 <- read_xlsx(path = "data/Orbis 2.xlsx", sheet = 1)
-orbis_3 <- read_xlsx(path = "data/Orbis 3.xlsx", sheet = 3)
-
-
+orbis_3 <- read_xlsx(path = "data/Orbis 3.xlsx", sheet = 4)
 
 # The number of columns and rows
 dim(orbis_1)
@@ -50,7 +48,7 @@ davos.join   <- left_join(davos.join, davos.monday, by = c("Organization" = "org
 
 # Wide and long: Country example -------
 
-head(davos) # Head gives us the beginning of an object
+head(davos, 15) # Head gives us the beginning of an object
 table(davos$Country) %>% sort %>% tail(10)
 country <- davos %>% group_by(Org) %>%
                 summarise("Number of countries in WEF" = length(table(Country)),
@@ -89,4 +87,7 @@ anti_join(davos.join, davos.monday)
 davos.join       <- davos.join %>% filter(Organization %in% davos.monday$organisation)
 
 
+davos.join$`Dirigeant Nom complet`
+
 save(davos.join, file = "data/davos.joined.Rda")
+write_csv(davos.join, path = "output/davos_joined.csv")
