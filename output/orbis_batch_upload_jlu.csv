@@ -1,0 +1,422 @@
+round,Organization,Nom de l'entreprise,Number of employees (last value) - Date,NACE Rev.2 Code principal,Ville,Code ISO Pays,Date de création,Total de l'Actif (Dernière année) mUSD (Taux de change à la dernière date de clôture)
+first,Koç Holding AS,KOC HOLDING A.S.,43465,K - Activités financières et d'assurance,KUZGUNCUK,TR,1963,23791.153085032853
+first,Kohlberg Kravis Roberts & Co. Ltd,KOHLBERG KRAVIS ROBERTS & CO. LTD,NA,K - Activités financières et d'assurance,LONDON,GB,36090,31.577738632202148
+first,KPMG,KPMG LLP,43008,"M - Activités spécialisées, scientifiques et techniques",LONDON,GB,37309,2121.3634431362152
+first,LANXESS AG,LANXESS AG,43465,C - Industrie manufacturière,KOLN,DE,2005,9946.6200121641159
+first,Lazard,LAZARD FRERES BANQUE SA,43465,K - Activités financières et d'assurance,PARIS CEDEX 08,FR,NA,1496.5844541382789
+first,Lego Group A/S,LEGO JURIS A/S,NA,N - Activités de services administratifs et de soutien,BILLUND,DK,38139,215.97079849243164
+first,Levi Strauss & Co.,LEVI STRAUSS & CO.,43429,C - Industrie manufacturière,SAN FRANCISCO,US,25895,3542.6599999999999
+first,Liberty Global Inc.,LIBERTY GLOBAL INC,NA,J - Information et communication,DENVER,US,2015,n.d.
+first,LIXIL Corporation,LIXIL GROUP CORPORATION,43555,C - Industrie manufacturière,TOKYO,JP,1949,18567.833482183516
+first,Lockheed Martin Corporation,LOCKHEED MARTIN CORP,43465,C - Industrie manufacturière,BETHESDA,US,34575,44876
+first,Louis Dreyfus Group,LOUIS DREYFUS COMPANY B.V.,43100,G - Commerce; réparation d'automobiles et de motocycles,ROTTERDAM,NL,38349,20393.999999998701
+first,Lulu Group International,LULU GROUP INTERNATIONAL LLC,43100,G - Commerce; réparation d'automobiles et de motocycles,ABU DHABI,AE,39812,n.d.
+first,Mahindra & Mahindra Ltd,MAHINDRA & MAHINDRA LIMITED,43555,C - Industrie manufacturière,MUMBAI,IN,1945,23621.294748342221
+first,Majid Al Futtaim Holding,MAJID AL FUTTAIM HYPERMARKETS LLC,43465,G - Commerce; réparation d'automobiles et de motocycles,DUBAI,AE,35066,n.d.
+first,ManpowerGroup,MANPOWERGROUP INC.,43465,N - Activités de services administratifs et de soutien,MILWAUKEE,US,32975,8519.7999999999993
+first,Marriott International Inc.,MARRIOTT INTERNATIONAL INC,43465,I - Hébergement et restauration,BETHESDA,US,35692,23696
+first,Mercer (MMC),MARSH & MCLENNAN COMPANIES INC,43465,K - Activités financières et d'assurance,NEW YORK,US,25279,21578
+first,MasterCard,MASTERCARD,43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,1966,24860
+first,McKinsey & Company,MCKINSEY & CO INC,NA,"M - Activités spécialisées, scientifiques et techniques",NEW YORK,US,1926,n.d.
+first,Merck,"MERCK & CO., INC.",43465,C - Industrie manufacturière,KENILWORTH,US,25777,82637
+first,Microsoft Corporation,MICROSOFT CORPORATION,43646,J - Information et communication,REDMOND,US,34234,286556
+first,Mitsubishi Corporation,MITSUBISHI CORPORATION,43555,G - Commerce; réparation d'automobiles et de motocycles,TOKYO,JP,1950,149051.57520025966
+first,Mitsui & Co. Ltd,MITSUI & CO LTD,43190,G - Commerce; réparation d'automobiles et de motocycles,TOKYO,JP,1947,107697.25496855844
+first,Mizuho Financial Group Inc.,MIZUHO FINANCIAL GROUP,43555,K - Activités financières et d'assurance,TOKYO,JP,2003,104914.50151142851
+first,Moore Capital Management,MOORE CAPITAL HOLDINGS LLC,2018,"M - Activités spécialisées, scientifiques et techniques",NEW YORK,US,1999,n.d.
+first,Morgan Stanley,MORGAN STANLEY,43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,8767,853531.00799999991
+first,Nasdaq Inc.,"NASDAQ, INC.",43465,K - Activités financières et d'assurance,NEW YORK,US,29172,15700
+first,Naspers Limited,NASPERS LIMITED,43555,J - Information et communication,CAPE TOWN,ZA,1915,33685
+first,Nedbank Group,NEDBANK GROUP LIMITED,43465,K - Activités financières et d'assurance,JOHANNESBURG,ZA,01/01/1888,72532.423321604729
+first,Nestlé SA,NESTLE S.A.,43465,C - Industrie manufacturière,VEVEY,CH,1866,139143.90328168869
+first,Neusoft Corporation,NEUSOFT CORPORATION,43465,J - Information et communication,SHENYANG,CN,35218,1981.6005253554581
+first,Newmont Mining Corporation,NEWMONT GOLDCORP CORPORATION,43465,C - Industrie manufacturière,GREENWOOD VILLAGE,US,37231,20715
+first,NGP Energy Capital Management,NGP ENERGY CAPITAL MANAGEMENT LLC,2018,K - Activités financières et d'assurance,IRVING,US,1988,n.d.
+first,Nielsen,NIELSEN HOLDINGS PLC,43465,"M - Activités spécialisées, scientifiques et techniques",OXFORD,GB,1923,15179
+first,Nike Inc.,NIKE INC,43616,C - Industrie manufacturière,BEAVERTON,US,25454,23717
+first,Nissan Motor Co. Limited,NISSAN MOTOR CO LTD,43555,C - Industrie manufacturière,YOKOHAMA,JP,1933,170865.00024126377
+first,Nomura Holdings Inc.,NOMURA HOLDINGS INC,43555,K - Activités financières et d'assurance,TOKYO,JP,9491,369360.26674374286
+first,Novartis AG,NOVARTIS AG,43465,C - Industrie manufacturière,BASEL,CH,1996,145563
+first,Novo Nordisk A/S,NOVO NORDISK FONDEN,43465,K - Activités financières et d'assurance,HELLERUP,DK,36449,33605.240311443806
+first,NYSE,NYSE GROUP INC,2018,K - Activités financières et d'assurance,NEW YORK,US,2000,n.d.
+first,Oando Plc,OANDO PLC,43465,G - Commerce; réparation d'automobiles et de motocycles,LAGOS,NG,1956,3501.9882661319884
+first,OC Oerlikon Management AG,"OC OERLIKON MANAGEMENT AG, PFAFFIKON",2019,"M - Activités spécialisées, scientifiques et techniques",PFAFFIKON SZ,CH,32423,n.d.
+first,Oil and Natural Gas Corporation Ltd (ONGC),OIL & NATURAL GAS CORPORATION LIMITED,43555,B - Industries extractives,NEW DELHI,IN,1993,71662.964193363674
+first,Old Mutual Plc,OLD MUTUAL LTD,NA,K - Activités financières et d'assurance,NA,ZA,42884,n.d.
+first,Omnicom Group Inc.,OMNICOM GROUP INC,43465,"M - Activités spécialisées, scientifiques et techniques",NEW YORK,US,16393,24617
+first,LUKOIL,PUBLIC JOINT STOCK COMPANY OIL COMPANY LUKOIL,NA,B - Industries extractives,MOSCOW,RU,1993,82515.222828185171
+first,Lloyd's,SOCIETY of LLOYD'S,43100,K - Activités financières et d'assurance,LONDON,GB,1688,6234.7575405836105
+first,A.P. Møller-Maersk A/S,A.P. MOLLER - MAERSK A/S,43465,N - Activités de services administratifs et de soutien,COPENHAGEN,DK,1904,56636
+first,A.T. Kearney,AT KEARNEY INC,2018,"M - Activités spécialisées, scientifiques et techniques",CHICAGO,US,2006,n.d.
+first,ABB Ltd,ABB LTD,43465,C - Industrie manufacturière,ZURICH,CH,1988,44441
+first,Abdul Latif Jameel International Group,NA,NA,NA,NA,NA,NA,NA
+first,Accenture,ACCENTURE PLC,43343,"M - Activités spécialisées, scientifiques et techniques",DUBLIN,IE,1989,24449083
+first,Acciona SA,ACCIONA S.A.,43465,F - Construction,ALCOBENDAS,ES,1916,17103.5526035873
+first,Adani Group,ADANI GROUP,NA,NA,"AHMEDABAD, GUJARAT",IN,NA,n.d.
+first,Adecco Group,ADECCO GROUP AG,43465,N - Activités de services administratifs et de soutien,GLATTBRUGG,CH,1996,11127.1156070232
+first,Adobe Systems Inc.,ADOBE INC,43434,J - Information et communication,SAN JOSE,US,35559,18768682
+first,African Rainbow Minerals,AFRICAN RAINBOW MINERALS LIMITED,43281,C - Industrie manufacturière,SANDTON,ZA,1933,2491.08637545258
+first,Agility,AGILITY PUBLIC WAREHOUSING COMPANY K.S.C.,NA,H - Transports et entreposage,SAFAT,KW,1979,6072.01112305021
+first,Airbus Defence and Space GmbH,AIRBUS DEFENCE AND SPACE GMBH,43100,C - Industrie manufacturière,TAUFKIRCHEN,DE,34603,136644.595551252
+first,Al Dabbagh Group Holding Co. Ltd,AL DABBAGH GROUP HOLDING LIMITED COMPANY,NA,NA,JEDDAH,SA,1962,n.d.
+first,Alghanim Industries,AL GHANIM INDUSTRIES COMPANY WLL,42735,F - Construction,SHUWAIKH (AL),KW,29517,n.d.
+first,Alibaba Group,ALIBABA GROUP HOLDING LIMITED,43555,G - Commerce; réparation d'automobiles et de motocycles,GEORGE TOWN,KY,1999,143589.000479937
+first,AlixPartners,ALIXPARTNERS LLP,2018,NA,NEW YORK,US,1981,n.d.
+first,Allianz SE,ALLIANZ SE,43465,K - Activités financières et d'assurance,MUNCHEN,DE,1890,1027714.73287189
+first,American Tower Corporation,AMERICAN TOWER CORPORATION,43465,S - Autres activités de services,BOSTON,US,35332,33010.4
+first,AMTD Group,AMTD INTERNATIONAL HOLDING GROUP LIMITED,NA,K - Activités financières et d'assurance,CENTRAL,HK,40695,n.d.
+first,AngloGold Ashanti Ltd,ANGLOGOLD ASHANTI LIMITED,43465,C - Industrie manufacturière,JOHANNESBURG,ZA,1944,6643
+first,Anheuser-Busch InBev NV,ANHEUSER-BUSCH INBEV SA/NV,43465,C - Industrie manufacturière,BRUXELLES,BE,1987,232103
+first,Antofagasta Minerals Plc,NA,NA,NA,NA,NA,NA,NA
+first,Apax Partners LLP,APAX PARTNERS LLP,43190,K - Activités financières et d'assurance,LONDON,GB,37533,100.924966128349
+first,Aramark Corporation,ARAMARK,43371,I - Hébergement et restauration,PHILADELPHIA,US,38849,13720102
+first,ArcelorMittal,ARCELORMITTAL S.A.,43465,C - Industrie manufacturière,LUXEMBOURG,LU,37050,91249
+first,Arup Group Ltd,ARUP GROUP LIMITED,43190,"M - Activités spécialisées, scientifiques et techniques",LONDON,GB,28249,1289.01714339256
+first,AT&T,AT&T INC.,43465,J - Information et communication,DALLAS,US,30594,531864
+first,AUDI AG,AUDI AG,43465,C - Industrie manufacturière,INGOLSTADT,DE,1932,75109.7478482723
+first,AXA,AXA SA,43465,K - Activités financières et d'assurance,PARIS,FR,1958,1065646.31198585
+first,BAE Systems Plc,BAE SYSTEMS PLC,43465,C - Industrie manufacturière,LONDON,GB,29220,31416.2716553211
+first,Bain & Company Inc.,BAIN & COMPANY INC.,NA,"M - Activités spécialisées, scientifiques et techniques",BOSTON,US,NA,n.d.
+first,Bajaj Group,NA,NA,NA,NA,NA,NA,NA
+first,Baker & McKenzie,BAKER & MCKENZIE LLP,2018,"M - Activités spécialisées, scientifiques et techniques",CHICAGO,US,1949,n.d.
+first,Banco Bilbao Vizcaya Argentaria SA,BANCO BILBAO VIZCAYA ARGENTARIA SA,43465,K - Activités financières et d'assurance,BILBAO,ES,32152,774809.295431256
+first,Banco Bradesco SA,BANCO BRADESCO SA,43465,K - Activités financières et d'assurance,SAO PAULO,BR,35706,332272.99965133
+first,Banco BTG Pactual,BANCO BTG PACTUAL S.A.,NA,NA,NA,BR,NA,n.d.
+first,Bank Mandiri (Persero) Tbk,BANK MANDIRI (PERSERO) TBK,43465,K - Activités financières et d'assurance,JAKARTA,ID,36161,83022.7261057923
+first,Bank of America Corporation,BANK of AMERICA CORPORATION,43465,K - Activités financières et d'assurance,"CHARLOTTE, NC",US,25146,2354980096
+first,Barclays,BARCLAYS PLC,43465,K - Activités financières et d'assurance,LONDON,GB,1690,1438758.85356653
+first,BASF SE,BASF SE,43465,C - Industrie manufacturière,LUDWIGSHAFEN AM RHEIN,DE,1865,99106.6699404716
+first,Bayer AG,BAYER AG,43465,C - Industrie manufacturière,LEVERKUSEN,DE,1863,144596.39786303
+first,BC Partners,BC PARTNERS LLP,43100,NA,LONDON,GB,42419,57.2315024145966
+first,BCG Digital Ventures,BCG DIGITAL VENTURES PTY LTD,43465,"M - Activités spécialisées, scientifiques et techniques",MELBOURNE,AU,39799,13.7376840807444
+first,Bharti Enterprises,BHARTI ENTERPRISES LIMITED,NA,S - Autres activités de services,VADODARA,IN,38677,129.433190245251
+first,BlackRock Inc.,"BLACKROCK, INC",43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,1988,159573
+first,BMO Financial Group,BANK of MONTREAL,43404,K - Activités financières et d'assurance,TORONTO,CA,01/01/1817,588987.995212555
+first,BP Plc,BP PLC,43465,C - Industrie manufacturière,LONDON,GB,1909,282176
+first,Bridgewater Associates LP,"BRIDGEWATER ASSOCIATES HOLDINGS, INC.",NA,NA,WESTPORT,US,NA,n.d.
+first,Brightstar Corp.,NA,NA,NA,Miami,US,1997,n.d.
+first,BT Group Plc,BT GROUP PLC,43555,J - Information et communication,LONDON,GB,1846,60661.4597740173
+first,Bunge Limited,BUNGE LIMITED,43465,C - Industrie manufacturière,HAMILTON,BM,1818,19425
+first,CA Technologies,M&A Broadcom,2018,NA,New York,US,1976,NA
+first,Canada Pension Plan Investment Board,Goverment,NA,NA,NA,NA,NA,NA
+first,Canica AS,NA,NA,NA,Oslo,NO,1985,NA
+first,Cargill Incorporated,CARGILL INC,NA,C - Industrie manufacturière,WAYZATA,US,1865,55800
+first,Carlsberg A/S,CARLSBERG A/S,43465,C - Industrie manufacturière,COPENHAGEN V,DK,1847,18053.8089364767
+first,Cassa Depositi e Prestiti S.p.a,CASSA DEPOSITI E PRESTITI,43465,K - Activités financières et d'assurance,ROME,IT,1850,486720.200111357
+first,Centene Corporation,CENTENE CORP,43465,K - Activités financières et d'assurance,ST LOUIS,US,1984,30901
+first,Centrica Plc,CENTRICA PLC,43465,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",WINDSOR,GB,1995,26098.1288458109
+first,Chevron Corporation,CHEVRON CORPORATION,43465,C - Industrie manufacturière,SAN RAMON,US,9524,253863
+first,China Minsheng Investment Group,"CHINA MINSHENG INVESTMENT CO., LTD.",NA,NA,SHANGHAI,CN,NA,n.d.
+first,Cisco,CISCO SYSTEMS INC,43309,C - Industrie manufacturière,SAN JOSE,US,31026,108784
+first,Citi,CITIGROUP INC,43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,4749,1917383.04
+first,"Clayton, Dubilier & Rice LLP","CLAYTON, DUBILIER & RICE INVESTMENT HOLDINGS, L.P.",NA,NA,GRAND CAYMAN,KY,NA,n.d.
+first,Clifford Chance LLP,CLIFFORD CHANCE LLP,43220,"M - Activités spécialisées, scientifiques et techniques",LONDON,GB,39022,1674.45109367371
+first,Cognizant Technology Solutions,COGNIZANT TECHNOLOGY SOLUTIONS CORP,43465,J - Information et communication,TEANECK,US,32239,15913
+first,Consolidated Contractors Company (CCC),CONSOLIDATED CONTRACTORS COMPANY LP,NA,NA,EDINBURGH,GB,42213,n.d.
+first,Credit Suisse AG,CREDIT SUISSE GROUP AG,2019,K - Activités financières et d'assurance,ZURICH,CH,30025,n.d.
+first,Crescent Group,CRESCENT GROUP,NA,NA,NA,AE,NA,n.d.
+first,Daiwa Securities Group Inc.,DAIWA SECURITIES GROUP INC,43555,K - Activités financières et d'assurance,TOKYO,JP,736,190467.967198102
+first,Dana Gas PJSC,DANA GAS PJSC,NA,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",SHARJAH,AE,2005,3167
+first,Danfoss A/S,DANFOSS A/S,43465,C - Industrie manufacturière,NORDBORG,DK,22549,6392.53822119344
+first,Dangote Group,NA,NA,NA,NA,NA,NA,NA
+first,Daniel Swarovski Corporation,DANIEL SWAROVSKI CORPORATION AG,2019,"M - Activités spécialisées, scientifiques et techniques",MANNEDORF,CH,25904,n.d.
+first,Dassault Systèmes SA,DASSAULT SYSTEMES SE,43465,J - Information et communication,VELIZY VILLACOUBLAY,FR,1981,9130.23460078239
+first,Dell Technologies,DELL TECHNOLOGIES INC.,43497,C - Industrie manufacturière,ROUND ROCK,US,41305,111820
+first,Deloitte,DELOITTE NSE LLP,43251,NA,LONDON,GB,42859,4750.71729123592
+first,Deutsche Bank AG,DEUTSCHE BANK AG,43465,K - Activités financières et d'assurance,FRANKFURT AM MAIN,DE,20856,1543617.6428386
+first,Deutsche Börse AG,DEUTSCHE BOERSE AG,43465,K - Activités financières et d'assurance,ESCHBORN,DE,1992,185374.562911403
+first,Deutsche Post DHL Group,DEUTSCHE POST AG,43465,H - Transports et entreposage,BONN,DE,1995,57788.1791198254
+first,DNB ASA,DNB ASA,43465,K - Activités financières et d'assurance,OSLO,NO,2003,303210.931699231
+first,Dogan Holding,NA,NA,NA,NA,NA,NA,NA
+first,Dogus Group,NA,NA,NA,NA,NA,NA,NA
+first,Dow Jones & Company Inc.,DOW JONES & CO INC,39082,C - Industrie manufacturière,NEW YORK,US,18225,1955562
+first,DP World,DP WORLD PLC,NA,H - Transports et entreposage,DUBAI,AE,2006,26513339
+first,DSM,KONINKLIJKE DSM N.V.,43465,C - Industrie manufacturière,HEERLEN,NL,1902,15618.9528704882
+first,DuPont,"DUPONT DE NEMOURS, INC.",43100,C - Industrie manufacturière,WILMINGTON,US,42347,187855
+first,eBay Inc.,EBAY INC,43465,G - Commerce; réparation d'automobiles et de motocycles,SAN JOSE,US,35867,22819
+first,Ecolab Inc.,ECOLAB INC,43465,C - Industrie manufacturière,SAINT PAUL,US,8815,20074.5
+first,Ecopetrol S.A.,EMPRESA COLOMBIANA DE PETROLEOS - ECOPETROL S.A.,NA,C - Industrie manufacturière,BOGOTA,CO,1948,38546.636018565
+first,Egon Zehnder,EGON ZEHNDER INTERNATIONAL AG,2019,K - Activités financières et d'assurance,ZURICH,CH,24985,n.d.
+first,Emaar Properties PJSC,EMAAR PROPERTIES PUBLIC JOINT STOCK COMPANY,NA,L - Activités immobilières,DUBAI,AE,35604,30484.9736256925
+first,EMBRAER SA,EMBRAER - EMPRESA BRASILEIRA DE AERONAUTICA S.A.,43465,C - Industrie manufacturière,SAO JOSE DOS CAMPOS,BR,2005,11294.9167076626
+first,Emirates Group,EMIRATES GROUP,NA,NA,DUBAI,AE,NA,n.d.
+first,Emirates NBD Bank,EMIRATES NBD BANK PJSC,43465,K - Activités financières et d'assurance,DUBAI CITY,AE,2007,136240.364853265
+first,ENGIE Group,ENGIE,43465,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",COURBEVOIE,FR,1946,175988.878681898
+first,Eni SpA,ENI S.P.A.,43465,B - Industries extractives,ROMA,IT,1953,135537.15329802
+first,Ericsson,TELEFONAKTIEBOLAGET LM ERICSSON,43465,C - Industrie manufacturière,STOCKHOLM,SE,1876,30008.3744517937
+first,Ernst & Young,ERNST & YOUNG EUROPE LLP,NA,"M - Activités spécialisées, scientifiques et techniques",LONDON,GB,39624,0.646463371753693
+first,Essar Group,NA,NA,NA,NA,NA,NA,NA
+first,Eurasian Resources Group Sàrl,EURASIAN RESOURCES GROUP SARL,2019,N - Activités de services administratifs et de soutien,LUXEMBOURG,LU,41407,n.d.
+first,Facebook Inc.,"FACEBOOK, INC.",43465,J - Information et communication,MENLO PARK,US,38197,97334
+first,FEMSA,FOMENTO ECONOMICO MEXICANO S.A.B. DE C.V.,NA,C - Industrie manufacturière,MONTERREY,MX,1936,29283.3365766071
+first,Fluor Corporation,FLUOR CORP,43465,"M - Activités spécialisées, scientifiques et techniques",IRVING,US,36780,8913637
+first,FTI Consulting,FTI CONSULTING INC,43465,"M - Activités spécialisées, scientifiques et techniques",WASHINGTON,US,30133,2379121
+first,Fujitsu Limited,FUJITSU LIMITED,43555,C - Industrie manufacturière,TOKYO,JP,1935,27991.7249859627
+first,Gazprom,PUBLIC JOINT STOCK COMPANY GAZPROM,43465,H - Transports et entreposage,MOSCOW,RU,1993,299557.512697615
+first,GDF SUEZ,France,Euronext Paris,175988.878681898,1946,COURBEVOIE,"The Company is a distributor of natural gas. Net sales break down by activity as follows: international production and sale of gas and electricity, production and sale of gas and electricity in France, supply of energy service, environmental services: distribution of drinking water and waste water treatment, collection and treatment of ordinary and special waste, facility design and construction and exploration and production of natural gas and hydrocarbons.",43465
+first,General Atlantic LLC,GENERAL ATLANTIC LLC,2018,K - Activités financières et d'assurance,GREENWICH,US,1981,n.d.
+first,General Electric Company,GENERAL ELECTRIC COMPANY,43465,C - Industrie manufacturière,BOSTON,US,15/04/1892,309585
+first,Generali,ASSICURAZIONI GENERALI SPA,43465,K - Activités financières et d'assurance,TRIESTE,IT,1831,590622.212618232
+first,GIC Private Limited,GIC PRIVATE LIMITED,NA,K - Activités financières et d'assurance,SINGAPORE,SG,29728,n.d.
+first,Glencore,GLENCORE PLC,43100,B - Industries extractives,ST HELIER,GB,2011,128672
+first,GMR Group,NA,NA,NA,New-Dehli,IN,1978,NA
+first,Godrej Industries Ltd,GODREJ INDUSTRIES LIMITED,43555,C - Industrie manufacturière,MUMBAI,IN,32209,2651.48979589902
+first,Goldcorp Inc.,GOLDCORP INC,NA,C - Industrie manufacturière,VANCOUVER,CA,34424,16967
+first,Goldman Sachs,"GOLDMAN SACHS GROUP, INC",43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,33238,931798016
+first,Google,ALPHABET INC.,43465,J - Information et communication,MOUNTAIN VIEW,US,42208,232792
+first,Grupo Salinas,GRUPO SALINAS SA DE CV,2017,K - Activités financières et d'assurance,MEXICO CITY DELEGACION IZTAPALAPA,MX,32509,n.d.
+first,Guggenheim Partners LLC,GUGGENHEIM CAPITAL LLC,2018,NA,CHICAGO,US,1996,n.d.
+first,Gunvor Group,GUNVOR SA,2019,G - Commerce; réparation d'automobiles et de motocycles,GENEVE,CH,38706,n.d.
+first,Hanwha Group,NA,NA,NA,Seoul,KOR,1952,NA
+first,HCL Technologies Ltd,HCL TECHNOLOGIES LIMITED,43555,J - Information et communication,NEW DELHI,IN,1991,8468.10725843534
+first,Heidrick & Struggles,HEIDRICK & STRUGGLES INTERNATIONAL INC,43465,N - Activités de services administratifs et de soutien,CHICAGO,US,24967,700629
+first,HEINEKEN,HEINEKEN NV,43465,C - Industrie manufacturière,AMSTERDAM,NL,1873,48039.6442074776
+first,Henkel AG & Co. KGaA,HENKEL AG & CO. KGAA,43465,C - Industrie manufacturière,DUSSELDORF,DE,1876,33918.35209167
+first,Hero Group,NA,2019,NA,NEW DELHI,IN,1984,2600
+first,Hewlett Packard Enterprise,HEWLETT PACKARD ENTERPRISE COMPANY,43404,C - Industrie manufacturière,SAN JOSE,US,42060,55493
+first,Hilton Worldwide,HILTON WORLDWIDE HOLDINGS INC.,43465,I - Hébergement et restauration,MCLEAN,US,40255,13995
+first,Hinduja Group of Companies,NA,2018,NA,MUMBAI,IN,1914,NA
+first,Hitachi Ltd,"HITACHI, LTD.",43555,C - Industrie manufacturière,TOKYO,JP,1920,86788.6081855595
+first,HNA Group Co. Ltd,"HNA GROUP CO., LTD.",43281,K - Activités financières et d'assurance,HAIKOU,CN,35901,168239.405800575
+first,HSBC Bank Plc,HSBC HOLDINGS PLC,43465,K - Activités financières et d'assurance,LONDON,GB,33239,2558124
+first,Huawei Technologies Co. Ltd,"HUAWEI TECHNOLOGIES CO., LTD.",43465,C - Industrie manufacturière,SHENZHEN,CN,32035,45711.4461160363
+first,Hyundai Motor Company,NA,2018,NA,Seoul,KOR,1967,13500
+first,Iberdrola,"IBERDROLA, S.A.",43465,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",BILBAO,ES,1992,129428.487054825
+first,IBM Corporation,INTERNATIONAL BUSINESS MACHINES CORP,43465,J - Information et communication,ARMONK,US,4185,123382
+first,IHS Markit,IHS MARKIT LTD.,43434,"M - Activités spécialisées, scientifiques et techniques",HAMILTON,BM,2007,16062.3
+first,IKEA Group,IKEA AB,43343,"M - Activités spécialisées, scientifiques et techniques",ALMHULT,SE,05/2010,893.438408916429
+first,Index Ventures,INDEX VENTURE MANAGEMENT US INC,2018,NA,SAN JOSE,US,2011,n.d.
+first,Indorama Corporation,NA,NA,NA,JAKARTA,IDN,1976,12000
+first,Industrial Development Corporation of South Africa Ltd (IDC),NA,NA,NA,NA,NA,NA,NA
+first,Infosys Ltd,INFOSYS LIMITED,NA,J - Information et communication,BANGALORE,IN,1981,12250.4562162235
+first,ING Group,ING GROEP NV,43465,K - Activités financières et d'assurance,AMSTERDAM,NL,33239,1015649.86179233
+first,InterContinental Hotels Group Plc,INTERCONTINENTAL HOTELS GROUP PLC,43465,I - Hébergement et restauration,DENHAM,GB,2004,3753
+first,International Flavors & Fragrances Inc. (IFF),INTERNATIONAL FLAVORS & FRAGRANCES INC,43465,C - Industrie manufacturière,NEW YORK,US,3628,12889395
+first,Intesa Sanpaolo SpA,INTESA SANPAOLO,43465,K - Activités financières et d'assurance,TORINO,IT,35827,901940.999493718
+first,Investcorp International Ltd,NA,NA,NA,Manama,BHR,1982,22200
+first,Investec Ltd,INVESTEC PLC,NA,K - Activités financières et d'assurance,LONDON,GB,1974,29666.4812015877
+first,"Iron Mountain Information Management, LLC",IRON MOUNTAIN INC,43465,H - Transports et entreposage,BOSTON,US,41816,11852247
+first,Itaú Unibanco SA,NA,NA,NA,NA,NA,NA,NA
+first,Jerónimo Martins SGPS SA,NA,NA,NA,NA,NA,NA,NA
+first,Johannesburg Stock Exchange Ltd,JSE LTD,43465,K - Activités financières et d'assurance,SANDOWN,ZA,1887,2912.98856096342
+first,Johnson & Johnson,JOHNSON & JOHNSON,43464,C - Industrie manufacturière,NEW BRUNSWICK,US,10/11/1887,152954
+first,Johnson Controls,JOHNSON CONTROLS INTERNATIONAL PLC,43373,C - Industrie manufacturière,CORK,IE,41768,48797
+first,Jones Lang LaSalle Inc.,JONES LANG LASALLE INC,43465,L - Activités immobilières,CHICAGO,US,35535,10025.5
+first,JPMorgan Chase & Co.,JPMORGAN CHASE & CO,43465,K - Activités financières et d'assurance,"NEW YORK, NY",US,25139,2622532096
+first,Jubilant Bhartia Group,NA,NA,NA,NA,NA,NA,NA
+first,Kaiser Permanente,KAISER PERMANENTE INC,NA,K - Activités financières et d'assurance,PASADENA,US,1945,n.d.
+first,Kcap Holdings,NA,NA,NA,NA,NA,NA,NA
+first,Procter & Gamble,PROCTER & GAMBLE CO,43646,C - Industrie manufacturière,CINCINNATI,US,1952,115095
+first,The Coca-Cola Company,COCA-COLA COMPANY (THE),43465,C - Industrie manufacturière,ATLANTA,US,7188,83216
+first,S&P Global,S&P GLOBAL INC.,43465,J - Information et communication,NEW YORK,US,9495,9458
+first,USM Holdings Limited,USM HOLDING AG,2019,"M - Activités spécialisées, scientifiques et techniques",MURI B. BERN,CH,9609,n.d.
+first,The Financial Times,FINANCIAL TIMES LIMITED(THE),43100,J - Information et communication,LONDON,GB,10253,340.581807434082
+first,The Economist,ECONOMIST NEWSPAPER LIMITED(THE),43190,J - Information et communication,LONDON,GB,10607,349.513897871494
+first,Ringier AG,RINGIER AG,2019,J - Information et communication,ZOFINGEN,CH,11038,n.d.
+first,Sberbank,SBERBANK of RUSSIA OAO,43465,K - Activités financières et d'assurance,MOSCOW,RU,15006,449074.863500427
+first,Pfizer Inc.,PFIZER INC,43465,C - Industrie manufacturière,NEW YORK,US,15494,159422
+first,The Dow Chemical Company,DOW CHEMICAL COMPANY (THE),43465,C - Industrie manufacturière,MIDLAND,US,17329,77378
+first,The Daily Telegraph,TELEGRAPH MEDIA GROUP LIMITED,43100,J - Information et communication,LONDON,GB,17623,296.712652587891
+first,Frankfurter Allgemeine Zeitung,FRANKFURTER ALLGEMEINE ZEITUNG GESELLSCHAFT MIT BESCHRAENKTER HAFTUNG,43100,J - Information et communication,FRANKFURT,DE,18244,526.910376424839
+first,Teck Resources Limited,TECK RESOURCES LIMITED,43465,C - Industrie manufacturière,VANCOUVER,CA,18895,29049.1898572445
+first,Agence France Presse (AFP),AGENCE FRANCE PRESSE,NA,J - Information et communication,PARIS,FR,19725,n.d.
+first,Les Echos,LES ECHOS,43100,J - Information et communication,PARIS,FR,21186,102.758322527878
+first,China Central Television,CHINA CENTRAL TELEVISION,NA,J - Information et communication,BEIJING,CN,21306,15721.7271429363
+first,Wal-Mart Stores Inc.,WALMART INC.,43496,G - Commerce; réparation d'automobiles et de motocycles,BENTONVILLE,US,25507,219295
+first,Saudi Basic Industries Corporation (SABIC),SAUDI BASIC INDUSTRIES CORPORATION (SAUDI JOINT STOCK COMPANY),NA,C - Industrie manufacturière,RIYADH,SA,28129,85256.2375131257
+first,The Olayan Group,OLAYAN FINANCING COMPANY LIMITED,42735,K - Activités financières et d'assurance,RIYADH (AL),SA,28557,n.d.
+first,Dentsu Aegis Network Ltd,DENTSU AEGIS NETWORK LTD.,43465,N - Activités de services administratifs et de soutien,LONDON,GB,28829,17638.9936455131
+first,BBC,BRITISH BROADCASTING CORPORATION,38807,NA,BELFAST,GB,28979,4227.60429568291
+first,Neue Zürcher Zeitung,AKTIENGESELLSCHAFT FUR DIE NEUE ZURCHER ZEITUNG,NA,C - Industrie manufacturière,ZURICH,CH,30357,354.762875983715
+first,Standard Chartered Bank,STANDARD CHARTERED PLC,43465,K - Activités financières et d'assurance,LONDON,GB,31048,688762
+first,PepsiCo Inc.,PEPSICO INC,43463,C - Industrie manufacturière,PURCHASE,US,31729,77648
+first,Saudi Aramco,SAUDI ARABIA OIL COMPANY (SAUDI ARAMCO) SAUDI JOINT STOCK COMPANY,43465,"M - Activités spécialisées, scientifiques et techniques",DHAHRAN (AL),SA,32460,n.d.
+first,Suncor Energy Inc.,SUNCOR ENERGY INC.,43465,C - Industrie manufacturière,CALGARY,CA,32509,65668.9390355349
+first,Transnet SOC Ltd,TRANSNET,42460,F - Construction,MIDRAND,ZA,32923,n.d.
+first,VTB Bank,VTB BANK (PUBLIC JOINT-STOCK COMPANY),NA,K - Activités financières et d'assurance,ST. PETERSBURG,RU,33163,212472.615760379
+first,SK Holdings,"SK HOLDINGS CO., LTD.",NA,J - Information et communication,SEOUL,KR,33341,107069.094174915
+first,Qualcomm,QUALCOMM INC,43373,C - Industrie manufacturière,SAN DIEGO,US,33465,32718
+first,PAG,PSG GROUP LIMITED,43159,K - Activités financières et d'assurance,STELLENBOSCH,ZA,34700,6936.60149473697
+first,RGE Pte Ltd,RGE PTE. LTD.,NA,"M - Activités spécialisées, scientifiques et techniques",SINGAPORE,SG,35180,9.29247328465462
+first,TIBCO Software Inc.,TIBCO SOFTWARE INC,41608,J - Information et communication,PALO ALTO,US,35382,2006113
+first,Pictet Group,PICTET EUROPE SA,NA,NA,LUXEMBOURG,LU,35853,n.d.
+first,Salesforce,"SALESFORCE.COM, INC.",43496,J - Information et communication,SAN FRANCISCO,US,36194,30737
+first,PayPal,"PAYPAL, INC.",37256,J - Information et communication,SAN JOSE,US,36228,278577
+first,Yahoo! Inc.,ALTABA INC.,NA,J - Information et communication,NEW YORK,US,36243,47553811
+first,SWIFT SCRL,SWIFT SCRL,NA,K - Activités financières et d'assurance,MADRID,ES,36281,n.d.
+first,UPS,UNITED PARCEL SERVICE INC,43465,H - Transports et entreposage,ATLANTA,US,36356,50016
+first,Handelsblatt GmbH,HANDELSBLATT GMBH,2019,J - Information et communication,DUESSELDORF,DE,36480,n.d.
+first,Time Warner Inc.,WARNER MEDIA LLC,43100,J - Information et communication,NEW YORK,US,36560,69209
+first,Zurich Insurance Group,ZURICH INSURANCE GROUP AG,2019,K - Activités financières et d'assurance,ZURICH,CH,36648,n.d.
+first,Temasek International Pte Ltd,TEMASEK PTE. LTD.,NA,"M - Activités spécialisées, scientifiques et techniques",SINGAPORE,SG,36846,197.834110919416
+first,Le Monde,LE MONDE,40543,"M - Activités spécialisées, scientifiques et techniques",PARIS,FR,36864,247.810263345741
+first,REMA 1000,REMA 1000 AS,NA,N - Activités de services administratifs et de soutien,OSLO,NO,37054,2172.49712021649
+first,Shell,ROYAL DUTCH SHELL PLC,40402,K - Activités financières et d'assurance,'S-GRAVENHAGE,NL,37292,270309.818435669
+first,PwC,PRICEWATERHOUSECOOPERS LLP,43281,"M - Activités spécialisées, scientifiques et techniques",LONDON,GB,37599,2642.35333454609
+first,PETRONAS (Petroliam Nasional Bhd),PETROLIAM NASIONAL BERHAD - BANKBOSTON BANCO MULTIPLO S.A.,2018,K - Activités financières et d'assurance,NA,BR,37610,n.d.
+first,SICPA Holding SA,SICPA HOLDING S.A.,2018,K - Activités financières et d'assurance,NA,BR,37797,n.d.
+first,Deutsche Welle,DEUTSCHE WELLE,NA,Q - Santé humaine et action sociale,MOSCOW,RU,38448,n.d.
+first,France 24,FRANCE 24,40543,J - Information et communication,ISSY LES MOULINEAUX,FR,38687,74.2573771288362
+first,The Western Union Company,WESTERN UNION CO. (THE),43465,"M - Activités spécialisées, scientifiques et techniques",DENVER,US,38765,8996.8
+first,Roland Berger,ROLAND BERGER HOLDING GMBH,40543,"M - Activités spécialisées, scientifiques et techniques",MUENCHEN,DE,38793,398.937180803418
+first,UC RUSAL,UC RUSAL LIMITED,NA,NA,NA,HK,39497,n.d.
+first,The Carlyle Group,CARLYLE GROUP L.P.,43465,K - Activités financières et d'assurance,WASHINGTON,US,40742,12914.2
+first,Workday Inc.,"WORKDAY, INC.",43496,J - Information et communication,PLEASANTON,US,40984,5520746
+first,Renova Group,RENOVA GRUPP,43100,G - Commerce; réparation d'automobiles et de motocycles,EKATERINBURG,RU,41232,4.47887324488163
+first,The Times,NEWS CORPORATION,43646,C - Industrie manufacturière,NEW YORK,US,41254,15711
+first,Politico,POLITICO,43465,J - Information et communication,BRUXELLES,BE,41382,10.0383654733952
+first,Puma Energy Holdings,PUMA ENERGY HOLDINGS PTE. LTD.,NA,K - Activités financières et d'assurance,SINGAPORE,SG,41396,8337.243543037
+first,UBS Group AG,UBS GROUP AG,2019,K - Activités financières et d'assurance,ZURICH,CH,41803,n.d.
+first,Unison Capital Inc.,"UNISON CAPITAL, INC.",43465,K - Activités financières et d'assurance,CHIYODA-KU,JP,2008,18.4515031950921
+first,Suntory Holdings Limited,SUNTORY HOLDINGS LIMITED,43465,K - Activités financières et d'assurance,KITA-KU OSAKA-SHI,JP,2009,39897.719158262
+first,NHK (Japan Broadcasting Corporation),JAPAN BROADCASTING CORPORATION,43190,J - Information et communication,SHIBUYA-KU,JP,1950,n.d.
+first,Orkla ASA,ORKLA ASA,43465,C - Industrie manufacturière,OSLO,NO,1654,6042.46259258688
+first,PZU SA,POWSZECHNY ZAKLAD UBEZPIECZEN SA,43100,K - Activités financières et d'assurance,NA,PL,1803,87388.3540243507
+first,Willis Towers Watson,WILLIS TOWERS WATSON PUBLIC LIMITED COMPANY,43465,K - Activités financières et d'assurance,DUBLIN,IE,1828,32385
+first,Rothschild,ROTHSCHILD & CO,43465,K - Activités financières et d'assurance,PARIS,FR,1838,15126.5156023459
+first,The Associated Press (AP),ASSOCIATED PRESS,2018,J - Information et communication,NEW YORK,US,1846,n.d.
+first,Siemens AG,SIEMENS AG,43373,C - Industrie manufacturière,MUNCHEN,DE,1847,160808.043399453
+first,Prudential Plc,PRUDENTIAL PLC,43465,K - Activités financières et d'assurance,LONDON,GB,1848,645749.99984324
+first,Süddeutsche Zeitung,SUEDDEUTSCHE ZEITUNG GMBH,39082,J - Information et communication,MUENCHEN,DE,1865,177.782172181606
+first,Schneider Electric,SCHNEIDER ELECTRIC SE,43465,C - Industrie manufacturière,RUEIL-MALMAISON,FR,1871,48386.5793823004
+first,Wendel,WENDEL,43465,C - Industrie manufacturière,PARIS,FR,1871,16393.0877605796
+first,CNN,"CNN AMERICA, INC.",NA,J - Information et communication,ATLANTA,US,1876,n.d.
+first,Telenor Group,TELENOR ASA,43465,J - Information et communication,FORNEBU,NO,1885,22010.5868519545
+first,Skanska AB,SKANSKA AB,43465,F - Construction,SOLNA,SE,1887,12984.9714625478
+first,Philips,KONINKLIJKE PHILIPS N.V.,43465,C - Industrie manufacturière,AMSTERDAM,NL,1891,29791.7700122595
+first,Rabobank Group,COOPERATIEVE RABOBANK U.A.,43465,K - Activités financières et d'assurance,UTRECHT,NL,1898,676050.705666184
+first,Toshiba Corporation,TOSHIBA CORPORATION,43555,C - Industrie manufacturière,TOKYO,JP,1904,38742.7351917028
+first,Volkswagen AG,VOLKSWAGEN AG,43465,C - Industrie manufacturière,WOLFSBURG,DE,1904,524588.884343624
+first,Yara International ASA,YARA INTERNATIONAL ASA,43465,B - Industries extractives,OSLO,NO,1905,16656
+first,Vattenfall AB,VATTENFALL AB,43465,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",SOLNA,SE,1909,51652.2638641596
+first,Wesfarmers Limited,WESFARMERS LIMITED,NA,C - Industrie manufacturière,PERTH,AU,1914,27297.1773378253
+first,Volvo,AB VOLVO,43465,C - Industrie manufacturière,GOTEBORG,SE,1915,52998.2588337287
+first,Vnesheconombank,VNESHECONOMBANK,2018,K - Activités financières et d'assurance,NEW YORK,US,1917,n.d.
+first,State Farm Insurance Companies,STATE FARM MUTUAL AUTOMOBILE INSURANCE CO.,NA,K - Activités financières et d'assurance,BLOOMINGTON,US,1922,159865.233167
+first,Total,TOTAL S.A.,43465,B - Industries extractives,COURBEVOIE,FR,1924,256762
+first,Unilever,UNILEVER PLC,43465,C - Industrie manufacturière,WIRRAL,GB,1930,68077.1543045044
+first,The Washington Post,WP CO LLC,2018,C - Industrie manufacturière,WASHINGTON,US,1933,n.d.
+first,Publicis Groupe SA,PUBLICIS GROUPE SA,43465,"M - Activités spécialisées, scientifiques et techniques",PARIS,FR,1938,31006.6156244278
+first,Takeda Pharmaceutical Company Limited,"TAKEDA PHARMACEUTICAL CO., LTD.",43555,C - Industrie manufacturière,"CHUO, TOKYO",JP,1943,125066.016995622
+first,Renault-Nissan Alliance,RENAULT,43465,C - Industrie manufacturière,BOULOGNE-BILLANCOURT,FR,1945,131670.486349583
+first,Wipro Limited,WIPRO LIMITED,NA,J - Information et communication,BANGALORE,IN,1945,12045.0386557709
+first,Sasol Limited,SASOL LIMITED,43281,C - Industrie manufacturière,SANDTON,ZA,1950,31895.4182807729
+first,CBS News,CBS NEWS DIVISION,NA,J - Information et communication,NEW YORK,US,1959,n.d.
+first,The Boston Consulting Group,BOSTON CONSULTING GROUP INC,2018,"M - Activités spécialisées, scientifiques et techniques",BOSTON,US,1963,n.d.
+first,NBCUniversal,NBCUNIVERSAL INC,NA,J - Information et communication,NEW YORK,US,1963,n.d.
+first,SNC-Lavalin Group Inc.,SNC-LAVALIN GROUP INC,43100,"M - Activités spécialisées, scientifiques et techniques",MONTREAL,CA,1967,9485.88223899126
+first,SAP SE,SAP SE,43465,J - Information et communication,WALLDORF,DE,1972,58957.2247089148
+first,Sequoia Capital,SEQUOIA CAPITAL OPERATIONS LLC,2018,K - Activités financières et d'assurance,MENLO PARK,US,1972,n.d.
+first,Statoil ASA,EQUINOR ASA,43465,B - Industries extractives,STAVANGER,NO,1972,112508
+first,Reliance,RELIANCE INDUSTRIES LIMITED,43555,C - Industrie manufacturière,MUMBAI,IN,1973,144916.45795133
+first,Thomson Reuters,THOMSON REUTERS CORPORATION,43465,"M - Activités spécialisées, scientifiques et techniques",TORONTO,CA,1977,17047
+first,Bloomberg News,BLOOMBERG LP,NA,J - Information et communication,NEW YORK,US,1981,n.d.
+first,Westpac Banking Corporation,WESTPAC BANKING CORPORATION,43373,K - Activités financières et d'assurance,SYDNEY,AU,1982,635241.321680546
+first,Technogym SpA,TECHNOGYM S.P.A.,43465,"R - Arts, spectacles et activités récréatives",CESENA,IT,1983,692.463143936515
+first,The Blackstone Group,THE BLACKSTONE GROUP INC,NA,K - Activités financières et d'assurance,"NEW YORK, NY",US,1985,28924.65
+first,Der Spiegel,SPIEGEL ONLINE GMBH,40178,J - Information et communication,HAMBURG,DE,1989,9.65008905960122
+first,Spiegel Online,SPIEGEL ONLINE GMBH,40178,J - Information et communication,HAMBURG,DE,1989,9.65008905960122
+first,The National Commercial Bank (NCB),BANKA KOMBETARE TREGTARE SH.A.,43465,K - Activités financières et d'assurance,TIRANA,AL,1993,3940969
+first,Turkcell Iletisim Hizmetleri AS,TURKCELL ILETISIM HIZMETLERI A.S.,NA,J - Information et communication,ISTANBUL,TR,1993,8121.55696792528
+first,SOCAR,STATE OIL COMPANY OF AZERBAIJAN REPUBLIC,43100,NA,TEHRAN,IR,1994,n.d.
+first,TPG Global LLC,TPG GLOBAL LLC,2018,NA,SAN FRANCISCO,US,1994,n.d.
+first,Suzlon Energy Limited,SUZLON ENERGY LIMITED,43190,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",AHMEDABAD,IN,1995,1709.69695882732
+first,Welspun Corp. Ltd,WELSPUN CORP LIMITED,43190,C - Industrie manufacturière,MUMBAI,IN,1995,1182.78475637441
+first,Soros Fund Management LLC,SOROS FUND MANAGEMENT LLC,2018,N - Activités de services administratifs et de soutien,NEW YORK,US,1996,n.d.
+first,Burda Media,BURDA MEDIA POLSKA SP. Z O.O.,43100,J - Information et communication,WARSZAWA,PL,1997,20.0311191765368
+first,Saudi Telecom Group,SAUDI TELECOM COMPANY (SAUDI JOINT STOCK COMPANY),NA,J - Information et communication,RIYADH,SA,1998,29852.9735569538
+first,Vestas Wind Systems A/S,VESTAS WIND SYSTEMS A/S,43465,"D - Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",AARHUS,DK,1998,13624.3618654013
+first,Sanofi,SANOFI,43465,C - Industrie manufacturière,PARIS,FR,1999,127562.224279404
+first,The Depository Trust & Clearing Corporation (DTCC),DEPOSITORY TRUST & CLEARING CORP,2018,K - Activités financières et d'assurance,NEW YORK,US,1999,n.d.
+first,Viking Global Investors LP,VIKING GLOBAL INVESTORS LP,2018,K - Activités financières et d'assurance,GREENWICH,US,1999,n.d.
+first,PhosAgro,PUBLIC JOINT STOCK COMPANY PHOSAGRO,NA,C - Industrie manufacturière,MOSCOW,RU,2001,4120.05944885593
+first,PTT Public Company Limited,PTT PUBLIC COMPANY LIMITED,NA,B - Industries extractives,"JATUJAK, BANGKOK",TH,2001,72588.5476874626
+first,Al Arabiya,AL ARABIYA NEWS CHANNEL FZ LLC,42735,NA,DUBAI,AE,2003,n.d.
+first,Palantir Technologies,PALANTIR TECHNOLOGIES,2018,J - Information et communication,PALO ALTO,US,2004,n.d.
+first,Sibur,PUBLIC JOINT STOCK COMPANY SIBUR HOLDING,NA,B - Industries extractives,MOSCOW,RU,2005,18117.6786808353
+first,SkyBridge Capital,SKYBRIDGE CAPITAL LLC,2018,K - Activités financières et d'assurance,NEW YORK,US,2005,n.d.
+first,WPP Plc,WPP PLC,43465,"M - Activités spécialisées, scientifiques et techniques",ST HELIER,GB,2005,42996.7212293267
+first,Ørsted,ORSTED A/S,43465,O - Administration publique,FREDERICIA,DK,2006,26777.7714110911
+first,Forbes Media LLC,FORBES MEDIA LLC,2018,C - Industrie manufacturière,NEW YORK,US,2006,n.d.
+first,Fox News,FOX NEWS,2009,J - Information et communication,NEW YORK,US,2006,n.d.
+first,SUN Group,SUN GROUP CORP,43465,L - Activités immobilières,DA NANG,VN,2007,355.810554056338
+first,Visa Inc.,VISA INC,NA,K - Activités financières et d'assurance,"SAN FRANCISCO, CA",US,2007,69225
+first,Sompo Holdings Inc.,SOMPO HOLDINGS INC.,43190,K - Activités financières et d'assurance,TOKYO,JP,2010,112518.339640782
+first,XL Group Plc,XL GROUP PLC,NA,K - Activités financières et d'assurance,STAMFORD,US,2011,n.d.
+first,Edelman,EDELMAN,2018,"M - Activités spécialisées, scientifiques et techniques",PORTLAND,US,2012,n.d.
+first,The Wall Street Journal,WALL STREET JOURNAL,NA,C - Industrie manufacturière,NEW YORK,US,2012,n.d.
+first,The New York Times,NEW YORK TIMES CO,43464,C - Industrie manufacturière,NEW YORK,US,1896,2197123
+first,Swiss Reinsurance Company,SWISS REINSURANCE GROUP (US MARKET AGGREGATE),NA,K - Activités financières et d'assurance,ARMONK,US,NA,20606.245028
+first,Syngenta International AG,NA,NA,NA,NA,NA,NA,NA
+first,TD Bank Group,Toronto-Dominion Bank,NA,NA,NA,NA,NA,NA
+first,The Abraaj Group,THE ABRAAJ GROUP,2019,K - Activités financières et d'assurance,LONDON,GB,NA,n.d.
+first,Business Insider Inc.,"BUSINESS INSIDER, INC.",NA,C - Industrie manufacturière,NEW YORK,US,NA,n.d.
+first,Fortune Magazine,FORTUNE MAGAZINE,NA,J - Information et communication,CHICAGO,US,NA,n.d.
+first,Swiss Radio and Television (RTS),NA,NA,NA,NA,NA,NA,NA
+first,The Guardian,THE GUARDIAN,2019,J - Information et communication,LONDON,GB,NA,n.d.
+first,Univision,UNIVISION NETWORK,NA,J - Information et communication,NEW YORK,US,NA,n.d.
+second,Harvard University - Harvard Business School,Harvard University - Harvard Business School,,,,,,
+second,London Business School,London Business School,,,,,,
+second,INSEAD,INSEAD,,,,,,
+second,Harvard University,Harvard University,,,,,,
+second,Harvard University - Harvard Kennedy School of Government,Harvard University - Harvard Kennedy School of Government,,,,,,
+second,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,,,,,
+second,Massachusetts Institute of Technology (MIT) - Media Lab,Massachusetts Institute of Technology (MIT) - Media Lab,,,,,,
+second,Stanford University,Stanford University,,,,,,
+second,University of Oxford,University of Oxford,,,,,,
+second,"University of California, Berkeley","University of California, Berkeley",,,,,,
+second,Carnegie Mellon University,Carnegie Mellon University,,,,,,
+second,Columbia University,Columbia University,,,,,,
+second,University of Pennsylvania,University of Pennsylvania,,,,,,
+second,Imperial College London,Imperial College London,,,,,,
+second,Princeton University,Princeton University,,,,,,
+second,ETH Zurich,ETH Zurich,,,,,,
+second,Yale University,Yale University,,,,,,
+second,University of Cambridge,University of Cambridge,,,,,,
+second,National University of Singapore,National University of Singapore,,,,,,
+second,Korea Advanced Institute of Science and Technology (KAIST),Korea Advanced Institute of Science and Technology (KAIST),,,,,,
+second,Tsinghua University,Tsinghua University,,,,,,
+second,London School of Economics and Political Science,London School of Economics and Political Science,,,,,,
+second,New York University,New York University,,,,,,
+second,China Europe International Business School (CEIBS),China Europe International Business School (CEIBS),,,,,,
+second,University of Southern California (USC),University of Southern California (USC),,,,,,
+second,University College London (UCL),University College London (UCL),,,,,,
+second,Australian National University,Australian National University,,,,,,
+second,Duke University,Duke University,,,,,,
+second,Peking University,Peking University,,,,,,
+second,Ecole Polytechnique Fédérale de Lausanne (EPFL),Ecole Polytechnique Fédérale de Lausanne (EPFL),,,,,,
+second,Georgetown University,Georgetown University,,,,,,
+second,University of Chicago,University of Chicago,,,,,,
+second,McGill University,McGill University,,,,,,
+second,University of Geneva,University of Geneva,,,,,,
+second,Keio University,Keio University,,,,,,
+second,International Finance Corporation (IFC),International Finance Corporation (IFC),,,,,,
+second,Confederation of Indian Industry (CII),Confederation of Indian Industry (CII),,,,,,
+second,GSMA,GSMA,,,,,,
+second,Economiesuisse,Economiesuisse,,,,,,
+second,International Chamber of Commerce (ICC),International Chamber of Commerce (ICC),,,,,,
+second,Bill & Melinda Gates Foundation,Bill & Melinda Gates Foundation,,,,,,
+second,The Rockefeller Foundation,The Rockefeller Foundation,,,,,,
+second,United Nations Foundation,United Nations Foundation,,,,,,
+second,The World Bank,The World Bank,,,,,,
+second,African Development Bank (AfDB),African Development Bank (AfDB),,,,,,
+second,European Bank for Reconstruction and Development (EBRD),European Bank for Reconstruction and Development (EBRD),,,,,,
+second,International Monetary Fund,International Monetary Fund,,,,,,
+second,European Investment Bank (EIB),European Investment Bank (EIB),,,,,,
+second,European Central Bank,European Central Bank,,,,,,
+second,Development Bank of Southern Africa,Development Bank of Southern Africa,,,,,,
+second,United Nations,United Nations,,,,,,
+second,United Nations - UNICEF,United Nations - UNICEF,,,,,,
+second,United Nations - UNHCR,United Nations - UNHCR,,,,,,
+second,United Nations - UNDP,United Nations - UNDP,,,,,,
+second,European Commission,European Commission,,,,,,
+second,OECD,OECD,,,,,,
+second,World Health Organization (WHO),World Health Organization (WHO),,,,,,
+second,World Trade Organization (WTO),World Trade Organization (WTO),,,,,,
+second,International Federation of Red Cross and Red Crescent Societies (IFRC),International Federation of Red Cross and Red Crescent Societies (IFRC),,,,,,
+second,ONE,ONE,,,,,,
+second,Save the Children,Save the Children,,,,,,
+second,World Wide Fund for Nature (WWF),World Wide Fund for Nature (WWF),,,,,,
+second,Catholic Church,Catholic Church,,,,,,
+second,World Economic Forum,World Economic Forum,,,,,,
+second,Bertelsmann Stiftung,Bertelsmann Stiftung,,,,,,

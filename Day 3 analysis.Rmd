@@ -10,7 +10,6 @@ load("data/davos.joined.Rda")
 ```
 
 # The relationsship between size and age
-
 ```{r cars}
 d <- davos.join %>% select(Organization = Organization,
                            Employees = Number_of_employees_clean,

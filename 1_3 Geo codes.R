@@ -61,4 +61,5 @@ subsidiary.countries$Country <- subsidiary.countries$iso2c %>% countrycode(origi
 
 all.subsidiary.countries     <- left_join(subsidiary.countries, country.matrix, by = c("iso2c" = "iso2c"))
 joined.subsidiary.countries.orbis <- all.subsidiary.countries %>% group_by(Organization) %>%  summarise_if(is.numeric, sum, )
+View(joined.subsidiary.countries.orbis)
 
